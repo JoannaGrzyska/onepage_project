@@ -10,7 +10,7 @@ on:
       steps:
       - uses: action/checkout@v1
       - name: Wdrożenie aplikacji
-      uses: SamKirkland/FTP-Deplou-Action@4.3.4
+      uses: SamKirkland/FTP-Deplou-Action@v4.3.4
       with:
         server: "s1.ct8.pl"
         server-dir: "./public_html"
