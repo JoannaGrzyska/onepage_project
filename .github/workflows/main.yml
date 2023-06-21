@@ -8,7 +8,7 @@ on:
     deploy:
       runs-on: ubuntu-latest
       steps:
-      - uses: action/checkout@v1
+      - uses: actions/checkout@v1
       - name: Wdrożenie aplikacji
       uses: SamKirkland/FTP-Deplou-Action@v4.3.4
       with:
