@@ -1,0 +1,149 @@
+.menu{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    
+    
+}
+.main-navigation{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.mainmenu-item{
+    margin-right: 35px;
+}
+.ws-svg-icon svg:not(.stroke-based) {
+    fill: #212121;
+}
+
+.menu-with-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 25px;
+}
+.icon-search,
+.icon-account,
+.icon-basket{
+    padding: 0 25px;
+}
+.headline{
+    flex-basis: 66.66%;
+}
+.carousel{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-slide{
+    position: relative;
+    justify-content: center;
+    width: 100%;
+}
+.carousel-description {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    margin-left: 5%;
+
+    
+}
+.carousel-description h2 {
+    font-size: 4.5vw;
+}
+.cta {
+    background: black;
+    color: white;
+    font-size: 1vw;
+    border: none;
+    padding: 1vw 1.5vw;
+    text-transform: uppercase;
+    margin: 40px 0 0 0;
+    width: 200px;
+}
+.block-grid{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    list-style: none;
+}
+.justify{
+    display: block;
+    text-align: center;
+    // max-width: 100%;
+}
+ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+.price{
+    display: block;
+}
+.carousel-description2 {
+    position: absolute;
+    top: 200px;
+    // width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    text-align: center;
+    display: block;
+}
+.featured-categories{
+    // width: 100%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    column-gap: 20px;
+    row-gap: 5px;
+    list-style-type: none;
+    // grid-column-start: 2;
+    // grid-column-end: -1;
+    justify-content: center;
+    margin-top: 60px
+
+}
+.category-img{
+    max-width: 100%;
+}
+// czyli ma maxymalnie tyle co rodzic 
+.social-media {
+    display: grid;
+    grid-template-columns: 50% 50% 50%;
+    flex-direction: row;
+    align-items: start;
+    // line-height: 1;
+    column-gap: 20%;
+margin-left: 135px;    }
+.ws-svg-icon{
+    fill:black;
+    width: 16px;
+    height: 16px;
+    // display: grid;
+    // grid-template-columns: 5% 5% 5%;
+
+}
+.sticky{
+    height: 70px;
+}
+@media (max-width: 768px) {
+    .desktop {
+      display: none;
+    }
+    .mobile {
+      display: flex;
+    }
+  }
+@media (min-width: 768px) {
+    .desktop {
+      display: flex;
+    }
+    .mobile {
+      display: none;
+    }
+  }
