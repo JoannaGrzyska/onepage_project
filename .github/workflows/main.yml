@@ -13,6 +13,6 @@ on:
       uses: SamKirkland/FTP-Deplou-Action@v4.3.4
       with:
         server: "s1.ct8.pl"
-        server-dir: "./public_html/"
+        server-dir: "./public_html/wp-content/themes/asia_grzyska/"
         username: ${{secrets.FTP_USERNAME}}
         password: ${{secrets.FTP_PASSWORD}}
