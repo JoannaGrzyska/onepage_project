@@ -37,20 +37,31 @@
     position: relative;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .carousel-slide{
     position: relative;
     justify-content: center;
-    width: 100%;
+    max-width: 100%;
 }
 .carousel-description {
     position: absolute;
-    top: 200px;
-    left: 0;
-    margin-left: 5%;
+    left: -22vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    height: 100%;
+    // top: 200px;
+    // left: 0;
+    // margin-left: 5%;
 
     
+}
+.carousel-title{
+    font-size: 5vw;
 }
 .carousel-description h2 {
     font-size: 4.5vw;
