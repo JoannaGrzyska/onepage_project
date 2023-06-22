@@ -19,6 +19,11 @@ margin-top: 40px;
     flex-direction: row;
     list-style: none;
     justify-content: space-around;
+    max-width: 80%;
+    margin: 20px auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 82px;
 }
 .block_grid_product-item{
     width: 350px;

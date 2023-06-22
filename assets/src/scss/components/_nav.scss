@@ -78,6 +78,20 @@
     left: -15vw;
     position: relative;
 }
+.cta2{
+    background: black;
+    color: white;
+    font-size: rem(16px);
+    border: none;
+    padding: rem(20px) rem(40px);
+    text-transform: uppercase;
+    margin: 40px 0 0 0;
+    max-width: 80%;
+    margin: 20px auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 82px;
+}
 .block-grid{
     display: flex;
     flex-direction: row;
@@ -99,12 +113,12 @@ ul,li{
 }
 .carousel-description2 {
     position: absolute;
-    top: 200px;
+    // top: 200px;
     // width: 400px;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 400px;
+    // width: 400px;
     text-align: center;
     display: block;
 }

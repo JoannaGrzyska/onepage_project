@@ -26,3 +26,12 @@
 // pages
 @import "pages/front-page",
         "pages/page";
+
+html{
+    font-size: 100% !important;
+}
+@media( max-width: 768px){
+    html{
+        font-size: 80% !important;
+    }
+}

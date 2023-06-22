@@ -16225,6 +16225,15 @@ a:active {
   border: 1px solid black;
 }
 
+.btn-black {
+  color: white;
+  background-color: black;
+  font-size: 1rem;
+  padding: 1.25rem 2.5rem;
+  border: none;
+  text-align: center;
+}
+
 .menu {
   display: -webkit-box;
   display: -webkit-flex;
@@ -16369,6 +16378,28 @@ a:active {
   position: relative;
 }
 
+.cta2 {
+  background: black;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  padding: 1.25rem 2.5rem;
+  text-transform: uppercase;
+  margin: 40px 0 0 0;
+  max-width: 80%;
+  margin: 20px auto;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 82px;
+     -moz-column-gap: 82px;
+          column-gap: 82px;
+}
+
 .block-grid {
   display: -webkit-box;
   display: -webkit-flex;
@@ -16399,7 +16430,6 @@ ul, li {
 
 .carousel-description2 {
   position: absolute;
-  top: 200px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -16413,7 +16443,6 @@ ul, li {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 400px;
   text-align: center;
   display: block;
 }
@@ -16512,6 +16541,18 @@ ul, li {
   -webkit-justify-content: space-around;
       -ms-flex-pack: distribute;
           justify-content: space-around;
+  max-width: 80%;
+  margin: 20px auto;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 82px;
+     -moz-column-gap: 82px;
+          column-gap: 82px;
 }
 
 .block_grid_product-item {
@@ -16639,5 +16680,15 @@ ul, li {
   -webkit-align-items: flex-end;
       -ms-flex-align: end;
           align-items: flex-end;
+}
+
+html {
+  font-size: 100% !important;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 80% !important;
+  }
 }
 /*# sourceMappingURL=main.css.map */

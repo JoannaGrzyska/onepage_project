@@ -46,7 +46,7 @@
 					<div class="justify">
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/src/img/img1.webp" class="  block_grid_product-item img" alt="">
 						<p>Eternal Sunset Collection Lip and Cheek</p>
-						<span class="price">$14.00</span><button class="add-to-cart cta">Shop now</button></div>
+						<span class="price">$14.00</span><button class="add-to-cart cta2 btn-black">Shop now</button></div>
 				</a>
 			</li>
 			<li class="block-grid_product-item">
@@ -55,7 +55,7 @@
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/src/img/img2.webp"class=" block_grid_product-item img" alt="">
 						<p>Vinopure Pore Purifying Gel Cleanser</p>
 						<span class="price">$16.00 $12.00</span>
-						<button class="add-to-cart cta">Shop now</button></div>
+						<button class="add-to-cart cta2 btn-black">Shop now</button></div>
 				</a>
 			</li>
 			<li class="block-grid_product-item">
@@ -63,7 +63,7 @@
 					<div class="justify">
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/src/img/img3.webp" class=" block_grid_product-item img" alt="">
 						<p>Deep Sweep 2% BHA Pore Cleaning Toner</p>
-						<span class="price">$21.00</span><button class="add-to-cart cta">Shop now</button></div>
+						<span class="price">$21.00</span><button class="add-to-cart cta2 btn-black">Shop now</button></div>
 				</a>
 			</li>
 		</ul>
@@ -75,7 +75,7 @@
 				>
 					<h2 class="justify">Highlighted Section</h2>
 					<p class="justify">What differentiates you from the competition? Use this section to talk about it. Don’t forget to talk about the benefits.</p>
-					<button class="cta">Shop now</button>	
+					<button class="cta2 btn-black">Shop now</button>	
 				</div>
 		</div>
 
