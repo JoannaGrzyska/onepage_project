@@ -16211,8 +16211,6 @@ a:active {
   transition: -webkit-transform 0.2s;
   transition: transform 0.2s;
   transition: transform 0.2s, -webkit-transform 0.2s;
-  width: 600px;
-  height: 600px;
 }
 
 .zoom:hover {
@@ -16366,7 +16364,9 @@ a:active {
   padding: 1vw 1.5vw;
   text-transform: uppercase;
   margin: 40px 0 0 0;
-  width: 200px;
+  width: 10vw;
+  left: -15vw;
+  position: relative;
 }
 
 .block-grid {

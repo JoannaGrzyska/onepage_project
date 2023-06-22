@@ -9,11 +9,11 @@
 				<div class="carousel-description" 
 			
 				>
-					<h2><?php the_title();?></h2>
+					<h2 class="justify carousel-title"><?php the_title();?></h2>
                     <p><?php the_content();?></p>
 					<button class="cta" onclick="mojaFunkcja();">Shop now</button>	
                     <div id="mojeid"></div>
-                    <button onclick="obiekty()">samochody</button>
+                    <!-- <button onclick="obiekty()">samochody</button>
                 <div id="info"></div>
                     <div>
                     
@@ -29,7 +29,7 @@
                     Perferendis maiores molestiae, illum animi ipsam consequatur rem. Tempora voluptatum, voluptatibus, sint nemo eaque non voluptate sunt reiciendis aut dolores delectus itaque vitae beatae deserunt nam, totam qui reprehenderit labore!
                     Culpa, animi non at accusamus doloremque ipsa fuga reiciendis illum, et beatae sed facere voluptas quasi quia dolorem sapiente aliquam nam. Alias odit illo quod enim, nam ipsam ipsum sit!
                 </div>
-                <div id="mojeid2"></div>
+                <div id="mojeid2"></div> -->
                 
             </div>
                     
@@ -38,7 +38,7 @@
 		<div id="content" class="site-content">
 
 		<h2 class="justify">Featured Collection</h2>
-		<p class="justify">A powerful headline about your product’s features to give focus to your chosen product collection</p>
+		<p class=" justify">A powerful headline about your product’s features to give focus to your chosen product collection</p>
 
 		<ul class="block-grid">
 			<li class="block-grid_product-item">
